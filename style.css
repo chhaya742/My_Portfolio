@@ -32,6 +32,7 @@
     border-radius: 0.7rem;
     margin: 1.4%;
     padding: 0.9rem;
+    text-align: center;
 
 }
 
@@ -55,6 +56,7 @@
 .blog-heading{
     padding-top: 5rem;
     margin-bottom: 0.5%;
+    text-align: center;
     
 }
 .hero-heading{
@@ -77,6 +79,7 @@
     border-radius: 5rem;
     padding: 0.5rem;
     color: white;
+    /* text-align: center; */
 }
 .link4{
     text-decoration: none;
@@ -94,7 +97,7 @@
     border-top-right-radius: 1rem;
     margin-top: 1%;
 }
-.link3{
+.link5{
     text-decoration: none;
     color: white;
     margin: 2rem;
@@ -155,8 +158,34 @@ p{
 
 }
 
+ol{
+    margin-left: 550px;
+}
 
 
+li{
+    margin-right: 530px;
 
+}
+
+
+.sec3{
+    background-color:rgb(230, 241, 252);
+    border-radius: 0.7rem;
+    margin: 1.4%;
+    padding: 0.9rem;
+    text-align: left;
+
+}
+.link3{
+    text-decoration: none;
+    margin: 4rem 0;
+    background-color:rgb(39, 9, 9);;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    color: white;
+    margin-left: 750px;
+
+}
 
 

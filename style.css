@@ -79,7 +79,7 @@
     border-radius: 5rem;
     padding: 0.5rem;
     color: white;
-    /* text-align: center; */
+    text-align: center;
 }
 .link4{
     text-decoration: none;
@@ -162,10 +162,12 @@ ol{
     margin-left: 550px;
 }
 
+
 li{
     margin-right: 530px;
 
 }
+
 
 .sec3{
     background-color:rgb(230, 241, 252);
@@ -175,15 +177,3 @@ li{
     text-align: left;
 
 }
-.link3{
-    text-decoration: none;
-    margin: 4rem 0;
-    background-color:rgb(39, 9, 9);;
-    border-radius: 5rem;
-    padding: 0.5rem;
-    color: white;
-    margin-left: 750px;
-
-}
-
-

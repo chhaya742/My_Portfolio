@@ -2,53 +2,259 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home|IAmDevloper</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/images/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <nav class="navigation-container">
-        <h3 class="name"> <strong>IAmDevloper</strong></h3>
-        <div class="link0">
-            <a class="link0 link-active" href="nikk.html">Home</a>
-            <a class="link0" href="projects.html">Projects</a>
-            <!-- <a class="link0" href="blogs.html">Blogs</a> -->
-            <a class="link0" href="about.html">About</a>
-        </div>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo" style="letter-spacing: 5px;"><span
+        style="color: #0ef ; font-weight: bold; letter-spacing: 5px; font-size: larger;">C</span>HHAYA</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#technologies">Technologies</a>
+      <a href="#portfolio">Projects</a>
+      <!-- <a href="#contact">Contact</a> -->
     </nav>
-    <header class="hero">
-        <img class="hero-img" src="node.png" alt="error img">
-        <h1 class="hero-heading">Chhaya Bagwan the<span class="heading-inv">Backend developer</span></h1>
+  </header>
 
-    </header>
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Chhaya Bagwan</h1>
+      <h3>And I'm a <span class="multiple-text" style="color: #0ef;"></span></h3>
+      <p>Hey there! I'm <span style="color: #0ef;">Chhaya Bagwan</span>. With 1.5 years of experience in software
+        development, specializing in Node.js, React.js, Express.js, and MySQL, I aim to contribute effectively to a
+        dynamic team.</p>
+      <div class="social-media">
+        <!-- <a href="https://www.facebook.com/saloni7773"><i class="bx bxl-facebook"></i></a> -->
+        <a href="https://wa.me/9770683669"><i class="bx bxl-whatsapp"></i></a>
+        <!-- <a href="https://www.instagram.com/saloniii_2801/"><i class="bx bxl-instagram-alt"></i></a> -->
+        <a href="https://www.linkedin.com/in/chhaya-bagwan-7546a5222/"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/1o7X5FQSViFErZ6TLvfa5PCXDgnR6dQSf/view?usp=sharing"
+        download="https://drive.google.com/file/d/1153M87ybguJHBqngvqBf7jjLiIkrRQ07/view?usp=sharing"
+        class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/myImage-removebg-preview_1.png" alt="my-image">
+    </div>
+  </section>
 
-    <section class="section">
-        <div class="sec1">
-            <h1 class="sec1"><strong>Technologies</strong></h1>
-            <p>
-                I'm familiar with HTML5, CSS3, python ,JavaScript, NodeJS, ExpressJs, Mysql, Mngodb and knexjs
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/myImage-removebg-preview_1.png" alt="portfolio-image">
+    </div>
+    <div class="about-content">
+      <h2 class="heading"> About <span style="color: #0ef;"> Me </span></h2>
+      <h3>Software Developer!</h3>
+      <p>Hey there! I'm <span style="color: #0ef;">Chhaya Bagwan</span>,
+        a dedicated software developer with 1.5 years of hands-on experience. Driven by a deep curiosity for technology
+        and a passion for impactful solutions, I specialize in web application development. I thrive on challenges,
+        constantly seeking opportunities to innovate and expand my skills. With a commitment to excellence, coupled with
+        enthusiasm and creativity, I'm a valuable asset to any team. My solid foundation and relentless drive position
+        me to make significant contributions to the ever-evolving landscape of software development.</p>
+      <a href="#read_more" class="btn">Read More</a>
+    </div>
+  </section>
 
-            </p>
+  <!-- <section class="read_more" id="read_more">
+    <div class="about-img">
+    </div>
+    <div class="about-content">
+      <h2 class="heading"> About <span style="color: #0ef;"> Me </span></h2>
+      <h3>Software Developer!</h3>
+      <p>Hey there! I'm <span style="color: #0ef;">Chhaya Bagwan</span>,
+        a dedicated software developer with 1.5 years of hands-on experience. Driven by a deep curiosity for technology
+        and a passion for impactful solutions, I specialize in web application development. I thrive on challenges,
+        constantly seeking opportunities to innovate and expand my skills. With a commitment to excellence, coupled with
+        enthusiasm and creativity, I'm a valuable asset to any team. My solid foundation and relentless drive position
+        me to make significant contributions to the ever-evolving landscape of software development.</p>
+      <h2>Professional Journey</h2>
+
+      <p>During my career, I've honed my skills in Node.js, React.js, Express.js, and MySQL, working on various projects
+        that have enriched my understanding of full-stack development. I thrive in dynamic environments where
+        collaboration and innovation are encouraged, constantly seeking new challenges to grow both personally and
+        professionally.</p>
+
+      <h2>Approach</h2>
+
+      <p>I believe in the power of clean, efficient code and strive to produce high-quality solutions that not only meet
+        but exceed expectations. My goal is to leverage my expertise to contribute meaningfully to projects that make a
+        difference, whether it's enhancing user experiences, optimizing performance, or solving complex problems.</p>
+
+      <h2>What Drives Me</h2>
+
+      <p>What motivates me most in this field is the opportunity to learn and adapt in an ever-evolving industry. I'm
+        driven by the excitement of exploring new technologies and methodologies, embracing challenges as opportunities
+        for growth, and ultimately delivering value through my work.</p>
+
+      <h2>Let's Connect!</h2>
+
+      <p>I'm always open to new opportunities, collaborations, and conversations. Whether you have a project idea to
+        discuss or simply want to connect, feel free to reach out. Let's innovate together and make a positive impact in
+        the world of software development!</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section> -->
+
+  <!-- technologies section design -->
+  <section class="technologies" id="technologies">
+    <h2 class="heading"> Work <span style="color: #0ef;">Experience</span></h2>
+    <div class="technologies-content">
+      <div class="technologies-box">
+        <!-- <i class="bx bx-code-alt"></i> -->
+        <h3>Software Trainee</h3>
+        <h4>Parasme Software and Technology</h4>
+        <h5>02-2022 - 04-2022</h5>
+        <p>During a three-month training period at Parasme Software and Technology, gained foundational experience in
+          Node.js, MongoDB, and API creation. Acquired proficiency in functional programming with async/await, enhancing
+          development skills for efficient and scalable applications.</p>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+      <div class="technologies-box">
+        <!-- <i class="bx bx bxs-devices"></i> -->
+        <h3>NodeJS Developer</h3>
+        <h4>Cognisun Infotech Pvt Ltd</h4>
+        <h5>05-2022 - 10-2022</h5>
+        <p>Key contributor to Node.js projects, managing MySQL databases, creating APIs, and conducting rigorous Postman
+          testing. Utilized strong skills in ES6 and HTTP, alongside expertise in database structures, to optimize team
+          efficiency and ensure successful project deliverables.</p>
+
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+      <div class="technologies-box">
+        <!-- <i class="bx bxs-data"></i> -->
+        <h3>MERN Stack Developer</h3>
+        <h4>DIT Interactive Pvt Ltd</h4>
+        <h5>11-2022 - 09-2023</h5>
+        <p>Contributed to various web projects including JavaScript and jQuery, React.js UI development, API integration
+          with Axios/Fetch, Node.js API creation, and admin dashboard design. Proficient in Async & Await, adeptly
+          managed database design, structure and data migrations</p>
+
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span style="color: #0ef;"> Project </span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/portfolio1.jpg" alt="img1">
+        <div class="portfolio-layer">
+          <h4>eTailEdge – E-Commerce Website</h4>
+          <p>"eTailEdge" is a user-friendly e-commerce website showcasing a diverse range of products and services.</p>
+          <a href="https://github.com/chhaya742/eTailEdge"><i class="bx bx-link-external"></i></a>
         </div>
-        <h1 class="sec"><strong>Projects</strong></h1>
-        <p style="margin-bottom:1rem">I would like to show my work and projects as well.
+      </div>
+      <div class="portfolio-box">
+        <img src="images/portfolio2.jpg" alt="img1">
+        <div class="portfolio-layer">
+          <h4>iNoteBook - Note App</h4>
+          <p>•	"iNoteBook" is a cloud-based note-taking platform enabling users to create accounts for saving and accessing notes.</p>
+          <a href="https://github.com/chhaya742/iNoteBook"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/portfolio3.jpg" alt="img1">
+        <div class="portfolio-layer">
+          <h4>Turing Ecommerce API</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+          <a href="https://github.com/chhaya742/Turing_Ecommerce_API"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/portfolio4.jpg" alt="img1">
+        <div class="portfolio-layer">
+          <h4>Grocery App</h4>
+          <p>This project utilizes MongoDB Atlas for data storage and Node.js with Express.js for e-commerce API 
+            creation.</p>
+          <a href="https://github.com/chhaya742/grocery_app-1"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/portfolio5.jpg" alt="img1">
+        <div class="portfolio-layer">
+          <h4>BLOG APP</h4>
+          <p>The Blog App API facilitates user authentication, CRUD for posts/comments, user management, and optional features like liking posts/following users.</p>
+          <a href="https://github.com/chhaya742/BLOG_APP"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="images/portfolio6.jpg" alt="img1">
+        <div class="portfolio-layer">
+          <h4>TheNewsG</h4>
+          <p>TheNewsG is a news app which can be used to grap quick daily news bites.</p>
+          <a href="https://github.com/chhaya742/TheNewsG"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        </p>
-        <a class="link2" link href="projects.html">See Projects</a>
+  <!-- contact section design -->
+  <!-- <section class="contact" id="contact">
+    <h2 class="heading">Contact <span style="color: #0ef;">Me!</span></h2>
 
-    </section>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section> -->
 
-    <footer class="footer">
-        <h3 class="f1">Social media presence</h3>
-        <a class="link5" href="https://github.com/chhaya742">Github</a>
-        <a class="link5" href="https://www.hackerrank.com/chhayabagwan34">hackerrank</a>
-        <a class="link5" href="https://www.linkedin.com/in/chhaya-bagwan-7546a5222/">Linkdin</a>
+  <!-- footer design -->
+  <div class="footer">
+    <div class="footer-text">
+      <!-- <p>copyright &copy; 2024 by Chhaya_Bagwan | All R bights Reserved.</p> -->
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </div>
 
-    </footer>
+  <!-- <footer class="footer">
+      <div class="footer-text">
+        <p>copyright &copy; 2024 by Saloni_Dubey | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home" ><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer> -->
 
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="script.js"></script>
 </body>
 
 </html>

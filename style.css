@@ -125,10 +125,11 @@
   .stat-label { font-size: 0.78rem; color: var(--muted); margin-top: 4px; letter-spacing: .04em; }
 
   /* ── SECTIONS ── */
-  section { padding: 90px 6vw; }
+  section { padding: 60px 6vw; padding-top: 50px
+  }
   .section-header {
     display: flex; align-items: center; gap: 14px;
-    margin-bottom: 52px;
+    margin-bottom: 30px;
   }
   .section-label {
     font-family: 'Syne', sans-serif;

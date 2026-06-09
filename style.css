@@ -124,6 +124,9 @@
   }
   .stat-label { font-size: 0.78rem; color: var(--muted); margin-top: 4px; letter-spacing: .04em; }
 
+  .nav-logo {
+    cursor: pointer;
+  }
   /* ── SECTIONS ── */
   section { padding: 60px 6vw; padding-top: 50px
   }

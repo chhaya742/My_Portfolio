@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chhaya Bagwan — MERN Stack Developer</title>
+    <title>Chhaya Bagwan - MERN Stack Developer</title>
     <link rel="icon" type="image/svg+xml"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%230B1120'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='36' fill='%2300C2A8'>CB</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,13 +12,14 @@
         href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
 
     <!-- NAV -->
     <nav>
-        <div class="nav-logo">CB.</div>
+        <div class="nav-logo" onclick="window.location.href='#hero'">CB.</div>
         <ul class="nav-links">
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
@@ -35,12 +36,13 @@
             <div class="hero-eyebrow"><span></span>Available for opportunities</div>
             <h1>Building the web,<br><span class="highlight">end to end.</span></h1>
             <p class="hero-sub">
-                I'm Chhaya Bagwan — a MERN Stack Developer with 3+ years shipping full-stack features
-                for ed-tech, healthcare, e-commerce, and SaaS products used by thousands.
+                I'm Chhaya Bagwan — a MERN Stack Developer who builds things that work. 3+ years, 8+ products shipped,
+                and a track record of cutting manual effort by 40% and delivering clean, scalable code across ed-tech,
+                healthcare, e-commerce, and SaaS.
             </p>
             <div class="hero-ctas">
                 <a href="#projects" class="btn-primary">View Projects</a>
-                <a href="mailto:chhayabagwan34@gmail.com" class="btn-ghost">Get in Touch</a>
+                <a href="#contact" class="btn-ghost">Get in Touch</a>
             </div>
             <div class="hero-stats">
                 <div>
@@ -229,8 +231,9 @@
                     <span class="project-arrow">↗</span>
                 </div>
                 <div class="project-name">LearningWeaver</div>
-                <div class="project-desc">Online learning platform with streak system, auto-login flow, and automated
-                    reports — cutting manual effort by 40%.</div>
+                <div class="project-desc">Online learning platform with social features (likes, comments), streak
+                    system, session management, auto-login flow, responsive UI, and automated reports — reducing manual
+                    effort by 40%.</div>
                 <div class="project-tags">
                     <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">MySQL</span>
                 </div>
@@ -242,8 +245,9 @@
                     <span class="project-arrow">↗</span>
                 </div>
                 <div class="project-name">Purple Block</div>
-                <div class="project-desc">Full-stack client app with JWT auth, responsive UI, and &lt;3s load times.
-                    Built solo from architecture to deployment.</div>
+                <div class="project-desc">Full-stack client application with JWT authentication, responsive UI, REST
+                    APIs, and optimized performance with under 3-second load times. Built solo from architecture to
+                    deployment.</div>
                 <div class="project-tags">
                     <span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">MongoDB</span>
                 </div>
@@ -255,8 +259,10 @@
                     <span class="project-arrow">↗</span>
                 </div>
                 <div class="project-name">PHC & DIT Academy</div>
-                <div class="project-desc">Modular LMS frontend with REST APIs, JWT auth, RBAC, and Knex.js schema
-                    design. Delivered via Agile sprints.</div>
+                <div class="project-desc">
+                    Educational management system for student records, course enrollment, fee management, workshop
+                    tracking, and automated reports.
+                </div>
                 <div class="project-tags">
                     <span class="tag">React.js</span><span class="tag">Knex.js</span><span class="tag">MySQL</span>
                 </div>
@@ -268,7 +274,7 @@
                     <span class="project-arrow">↗</span>
                 </div>
                 <div class="project-name">Kapiva</div>
-                <div class="project-desc">Role-based SaaS admin dashboard with scoped data access and a shared UI
+                <div class="project-desc">Role-based admin dashboard with scoped data access and a shared UI
                     component library used across multiple products.</div>
                 <div class="project-tags">
                     <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">REST APIs</span>
@@ -339,8 +345,10 @@
                     <span class="project-arrow">↗</span>
                 </div>
                 <div class="project-name">BuzzChat</div>
-                <div class="project-desc">Real-time chat with Socket.io, presence tracking, and read receipts. JWT auth
-                    + Redux state. Deployed on AWS EC2 + S3.</div>
+                <div class="project-desc">
+                    Real-time chat platform with JWT authentication, Socket.io messaging, online user presence, Zustand
+                    state management, and robust error handling. Deployed on Vercel.
+                </div>
                 <div class="project-tags">
                     <span class="tag">Socket.io</span><span class="tag">Redux</span><span class="tag">JWT</span><span
                         class="tag">AWS</span>
@@ -379,12 +387,16 @@
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.59 1.4h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
       +91 97706 83669
     </a> -->
-            <a href="https://github.com" target="_blank" class="contact-link">
+            <a href="https://github.com/chhaya742" target="_blank" class="contact-link">
                 <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
                     <path
                         d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
                 </svg>
                 GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/chhaya-bagwan0502/" target="_blank" class="contact-link">
+                <i class="bi bi-linkedin"></i>
+                LinkedIn
             </a>
         </div>
     </section>

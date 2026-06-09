@@ -1,189 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="images/favicon.ico" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chhaya Bagwan Portfolio</title>
-
-    <!-- Box icons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Chhaya Bagwan — MERN Stack Developer</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%230B1120'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='36' fill='%2300C2A8'>CB</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body> <!-- header design -->
-    <header class="header">
-        <a href="#" class="logo"><span style="color: #0ef; font-weight: bold;">C</span>HHAYA</a>
-        <i class="bx bx-menu" id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#technologies">Experience</a>
-            <a href="#projects">Projects</a>
-        </nav>
-    </header>
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">CB.</div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Chhaya Bagwan</h1>
-            <h3>And I'm a <span class="multiple-text" style="color: #0ef;">MERN Stack Developer</span></h3>
-            <p>With 3+ years of experience in software development, specializing in Node.js, React.js, Express.js,
-                MongoDB, and MySQL, I build high-quality, scalable software solutions.</p>
-            <div class="social-media">
-                <a href="https://wa.me/+919770683669"><i class="bx bxl-whatsapp"></i></a>
-                <a href="https://www.linkedin.com/in/chhaya-bagwan-7546a5222/"><i class="bx bxl-linkedin"></i></a>
-            </div>
-            <a href="https://drive.google.com/file/d/1MZLThtWZVxbnv6bJ0SbvsZ8Id182_3KY/view?usp=sharing"
-                class="btn">Download CV</a>
-        </div>
-        <div class="home-img">
-            <img src="images/myimage1.jpg" alt="Chhaya Bagwan portrait">
-        </div>
-    </section>
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow"><span></span>Available for opportunities</div>
+    <h1>Building the web,<br><span class="highlight">end to end.</span></h1>
+    <p class="hero-sub">
+      I'm Chhaya Bagwan — a MERN Stack Developer with 3+ years shipping full-stack features
+      for ed-tech, healthcare, e-commerce, and SaaS products used by thousands.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="mailto:chhayabagwan34@gmail.com" class="btn-ghost">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-val">3+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div>
+        <div class="stat-val">20+</div>
+        <div class="stat-label">Reusable Components Built</div>
+      </div>
+      <div>
+        <div class="stat-val">40%</div>
+        <div class="stat-label">Manual Effort Reduced</div>
+      </div>
+      <div>
+        <div class="stat-val">8+</div>
+        <div class="stat-label">Products Shipped</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/myimage1.jpg" alt="Chhaya Bagwan portfolio image">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span style="color: #0ef;">Me</span></h2>
-            <h3>Software Developer!</h3>
-            <p>Hey there! I'm <span style="color: #0ef;">Chhaya Bagwan</span>, a dedicated software developer with
-                3 years of hands-on experience. Driven by curiosity for technology and a passion for impactful
-                solutions, I specialize in web application development. I thrive on challenges, constantly seeking
-                opportunities to innovate and expand my skills. My solid foundation and relentless drive position me
-                to make significant contributions to the ever-evolving landscape of software development.</p>
-            <a href="#read_more" class="btn">Read More</a>
-        </div>
-    </section>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <span class="section-label">Skills</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-cat">Frontend</div>
+      <div class="skill-list">
+        <span class="tag">React.js</span><span class="tag">Next.js</span>
+        <span class="tag">JavaScript ES6+</span><span class="tag">HTML5</span>
+        <span class="tag">CSS3</span><span class="tag">Tailwind CSS</span>
+        <span class="tag">Bootstrap</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Backend</div>
+      <div class="skill-list">
+        <span class="tag">Node.js</span><span class="tag">Express.js</span>
+        <span class="tag">PHP</span><span class="tag">REST APIs</span>
+        <span class="tag">Knex.js</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Databases</div>
+      <div class="skill-list">
+        <span class="tag">MongoDB</span><span class="tag">MySQL</span>
+        <span class="tag">Redis</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Auth & State</div>
+      <div class="skill-list">
+        <span class="tag">JWT</span><span class="tag">Session Auth</span>
+        <span class="tag">RBAC</span><span class="tag">Redux</span>
+        <span class="tag">Context API</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Cloud & DevOps</div>
+      <div class="skill-list">
+        <span class="tag">AWS EC2</span><span class="tag">AWS S3</span>
+        <span class="tag">Git</span><span class="tag">GitHub</span>
+        <span class="tag">GitLab</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Process</div>
+      <div class="skill-list">
+        <span class="tag">Agile / Scrum</span><span class="tag">Jira</span>
+        <span class="tag">Code Reviews</span><span class="tag">API Design</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Experience Section -->
-    <section class="technologies" id="technologies">
-        <h2 class="heading">Work <span style="color: #0ef;">Experience</span></h2>
-        <div class="technologies-content">
-            <div class="technologies-box">
-                <h3>Full Stack Developer</h3>
-                <h4>Skills Cafe</h4>
-                <h5>05-2024 - Present</h5>
-                <p>Worked on Learningweaver project: server-side scripts, JS UI, MySQL DB design for online learning
-                    platform.</p>
-            </div>
-             <div class="technologies-box">
-                <h3>MERN Stack Developer</h3>
-                <h4>DIT Interactive Pvt Ltd</h4>
-                <h5>11-2022 - 09-2023</h5>
-                <p>Developed web projects with React.js, Node.js APIs, and admin dashboards. Proficient in async/await
-                    and data migrations.</p>
-            </div>
-             <div class="technologies-box">
-                <h3>Freelance Software Engineer</h3>
-                <h4>Self-employed</h4>
-                <h5>10-2023 - 04-2024</h5>
-                <p>Built end-to-end apps using React.js, Next.js, Node.js, MongoDB. Integrated JWT auth, Razorpay,
-                    deployed on AWS/Vercel.</p>
-            </div>
-             <div class="technologies-box">
-                <h3>Node.js Developer</h3>
-                <h4>Cognisun Infotech Pvt Ltd</h4>
-                <h5>05-2022 - 10-2022</h5>
-                <p>Managed Node.js projects, MySQL databases, and API testing. Optimized efficiency with ES6 & HTTP.</p>
-            </div>
-            <div class="technologies-box">
-                <h3>Software Trainee</h3>
-                <h4>Parasme Software and Technology</h4>
-                <h5>02-2022 - 04-2022</h5>
-                <p>Completed three-month training in Node.js, MongoDB, and API creation. Learned async/await for
-                    scalable apps.</p>
-            </div>
-        </div>
-    </section>
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-header reveal">
+    <span class="section-label">Experience</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="timeline">
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2 class="heading">Latest <span style="color: #0ef;">Projects</span></h2>
-        <div class="projects-container">
-            
-             <div class="projects-box">
-                <img src="images/portfolio5.jpg" alt="Buzzchat real-time chat app">
-                <div class="projects-layer">
-                    <h4>Chat App - Buzzchat</h4>
-                    <p>Real-time chat app with secure authentication for instant messaging.</p>
-                    <a href="https://github.com/chhaya742/Chat-App"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-
-            <div class="projects-box">
-                <img src="images/portfolio1.jpg" alt="eTailEdge e-commerce screenshot">
-                <div class="projects-layer">
-                    <h4>eTailEdge – E-Commerce Website</h4>
-                    <p>eTailEdge is a user-friendly e-commerce website showcasing a diverse range of products and
-                        services.</p>
-                    <a href="https://github.com/chhaya742/eTailEdge"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-
-            <div class="projects-box">
-                <img src="images/portfolio2.jpg" alt="iNoteBook app screenshot">
-                <div class="projects-layer">
-                    <h4>iNoteBook - Note App</h4>
-                    <p>iNoteBook is a cloud-based note-taking platform for saving and accessing notes.</p>
-                    <a href="https://github.com/chhaya742/iNoteBook"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-
-            <div class="projects-box">
-                <img src="images/portfolio3.jpg" alt="Turing E-commerce API screenshot">
-                <div class="projects-layer">
-                    <h4>Turing E-commerce API</h4>
-                    <p>Developed a scalable Node.js API for e-commerce functionality.</p>
-                    <a href="https://github.com/chhaya742/Turing-Ecommerce-API"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-
-            <div class="projects-box">
-                <img src="images/portfolio4.jpg" alt="Grocery App screenshot">
-                <div class="projects-layer">
-                    <h4>Grocery App</h4>
-                    <p>Uses MongoDB Atlas and Node.js/Express.js for API and database management.</p>
-                    <a href="https://github.com/chhaya742/grocery_app-1"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-
-            <div class="projects-box">
-                <img src="images/portfolio6.jpg" alt="TheNewsG news app screenshot">
-                <div class="projects-layer">
-                    <h4>TheNewsG</h4>
-                    <p>News app providing daily updates in a simple format.</p>
-                    <a href="https://github.com/chhaya742/TheNewsG"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <div class="footer">
-        <div class="footer-text"></div>
-        <div class="footer-iconTop">
-            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
-        </div>
+    <div class="timeline-item reveal">
+      <div class="tl-date">
+        <strong>May 2024 – Jul 2025</strong>
+        Bengaluru
+      </div>
+      <div class="tl-line"><div class="tl-dot"></div></div>
+      <div class="tl-content">
+        <div class="tl-role">Software Developer</div>
+        <div class="tl-company">Skills Café</div>
+        <ul class="tl-bullets">
+          <li>Built <b>20+ reusable React components</b> for LearningWeaver, reducing new-feature dev time by ~30%.</li>
+          <li>Designed a <b>streak & gamification system</b> that improved learner retention and daily active usage.</li>
+          <li>Automated on-boarding flow, <b>cutting manual admin effort by 40%</b>.</li>
+          <li>Designed REST APIs enabling parallel development across <b>2 squads</b>.</li>
+        </ul>
+      </div>
     </div>
 
-    <!-- Scroll Reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <div class="timeline-item reveal">
+      <div class="tl-date">
+        <strong>Oct 2023 – Apr 2024</strong>
+        Remote
+      </div>
+      <div class="tl-line"><div class="tl-dot"></div></div>
+      <div class="tl-content">
+        <div class="tl-role">Software Engineer</div>
+        <div class="tl-company">Freelance — Purple Block</div>
+        <ul class="tl-bullets">
+          <li>Sole engineer — architected and shipped a full-stack app from design through deployment.</li>
+          <li>Implemented <b>JWT auth + RBAC</b>, securing multi-role access end to end.</li>
+          <li>Achieved <b>&lt;3s page-load times</b> via code-splitting and lazy loading.</li>
+        </ul>
+      </div>
+    </div>
 
-    <!-- Typed.js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <div class="timeline-item reveal">
+      <div class="tl-date">
+        <strong>Nov 2022 – Sep 2023</strong>
+        Ahmedabad
+      </div>
+      <div class="tl-line"><div class="tl-dot"></div></div>
+      <div class="tl-content">
+        <div class="tl-role">MERN Stack Developer</div>
+        <div class="tl-company">DIT Interactive Pvt Ltd</div>
+        <ul class="tl-bullets">
+          <li>Led frontend architecture across <b>3 concurrent client projects</b> in a 6-person Agile team.</li>
+          <li>Built a <b>modular component library</b> that cut per-project UI effort by ~25%.</li>
+          <li>Engineered role-based dashboards and BigCommerce integrations for an Australian retailer.</li>
+        </ul>
+      </div>
+    </div>
 
-    <!-- Custom JS -->
-    <script src="script.js"></script>
+    <div class="timeline-item reveal">
+      <div class="tl-date">
+        <strong>May 2022 – Oct 2022</strong>
+        Ahmedabad
+      </div>
+      <div class="tl-line"><div class="tl-dot"></div></div>
+      <div class="tl-content">
+        <div class="tl-role">Node.js Developer</div>
+        <div class="tl-company">Cognisun Infotech Pvt Ltd</div>
+        <ul class="tl-bullets">
+          <li>Built core <b>insurance APIs</b> (policies, claims, reporting) for an Australian healthcare platform.</li>
+          <li>MySQL stored procedures + scheduled jobs cut report generation by <b>~35%</b>.</li>
+          <li>Implemented RBAC across the full system.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-label">Projects</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="projects-grid">
+
+    <a href="https://learningweaver.com" target="_blank" rel="noopener" class="project-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">Ed-Tech</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">LearningWeaver</div>
+      <div class="project-desc">Online learning platform with streak system, auto-login flow, and automated reports — cutting manual effort by 40%.</div>
+      <div class="project-tags">
+        <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">MySQL</span>
+      </div>
+    </a>
+
+    <a href="https://www.purpleblock.ai/" target="_blank" rel="noopener" class="project-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">Web App</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">Purple Block</div>
+      <div class="project-desc">Full-stack client app with JWT auth, responsive UI, and &lt;3s load times. Built solo from architecture to deployment.</div>
+      <div class="project-tags">
+        <span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">MongoDB</span>
+      </div>
+    </a>
+
+    <a href="https://ditacademy.in/" target="_blank" rel="noopener" class="project-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">LMS</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">PHC & DIT Academy</div>
+      <div class="project-desc">Modular LMS frontend with REST APIs, JWT auth, RBAC, and Knex.js schema design. Delivered via Agile sprints.</div>
+      <div class="project-tags">
+        <span class="tag">React.js</span><span class="tag">Knex.js</span><span class="tag">MySQL</span>
+      </div>
+    </a>
+
+    <a href="https://kapiva.in" target="_blank" rel="noopener" class="project-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">SaaS</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">Kapiva</div>
+      <div class="project-desc">Role-based SaaS admin dashboard with scoped data access and a shared UI component library used across multiple products.</div>
+      <div class="project-tags">
+        <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">REST APIs</span>
+      </div>
+    </a>
+
+    <a href="https://www.hunterhome.co.nz/" target="_blank" rel="noopener" class="project-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">E-Commerce · AU</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">Hunter Home</div>
+      <div class="project-desc">BigCommerce storefront with improved checkout UX and 3rd-party shipping & payment API integrations for an Australian retailer.</div>
+      <div class="project-tags">
+        <span class="tag">JavaScript</span><span class="tag">jQuery</span><span class="tag">BigCommerce</span>
+      </div>
+    </a>
+
+    <a href="https://valucare.in" target="_blank" rel="noopener" class="project-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">Healthcare · AU</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">Value Care</div>
+      <div class="project-desc">Insurance APIs covering policies, claims, and reporting. MySQL stored procedures cut report generation time by ~35%.</div>
+      <div class="project-tags">
+        <span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MySQL</span>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- Personal -->
+  <div class="section-header reveal" style="margin-top: 60px;">
+    <span class="section-label" style="font-size:1.2rem; color: var(--muted);">Personal Projects</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="personal-grid">
+
+    <a href="https://chat-app-yt-ekvr.onrender.com/" target="_blank" rel="noopener" class="personal-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">Chat App</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">BuzzChat</div>
+      <div class="project-desc">Real-time chat with Socket.io, presence tracking, and read receipts. JWT auth + Redux state. Deployed on AWS EC2 + S3.</div>
+      <div class="project-tags">
+        <span class="tag">Socket.io</span><span class="tag">Redux</span><span class="tag">JWT</span><span class="tag">AWS</span>
+      </div>
+    </a>
+
+    <a href="https://etailedge.netlify.app/" target="_blank" rel="noopener" class="personal-card reveal">
+      <div class="project-card-top">
+        <span class="project-badge">E-Commerce</span>
+        <span class="project-arrow">↗</span>
+      </div>
+      <div class="project-name">eTailEdge</div>
+      <div class="project-desc">Full cart-to-checkout e-commerce platform with Next.js SSR for SEO, normalised MySQL schema, and JWT auth.</div>
+      <div class="project-tags">
+        <span class="tag">Next.js</span><span class="tag">MySQL</span><span class="tag">JWT</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-title reveal">Let's build something.</div>
+  <p class="contact-sub reveal">Open to full-time roles, freelance projects, and interesting collaborations.</p>
+  <div class="contact-links reveal">
+    <a href="mailto:chhayabagwan34@gmail.com" class="contact-link">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+      chhayabagwan34@gmail.com
+    </a>
+    <!-- <a href="tel:+919770683669" class="contact-link">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.59 1.4h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      +91 97706 83669
+    </a> -->
+    <a href="https://github.com" target="_blank" class="contact-link">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+      GitHub
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Chhaya Bagwan · Built with care
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
